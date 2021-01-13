@@ -10,18 +10,32 @@
             a {
                 color: blue;
             }
+            #grid {
+                display:grid;
+                grid-template-columns: 1fr 200px 1fr;
+            }
             h1 {
-                border-width: 5px;
-                border-color: black;
-                border-style: solid;
-                color: dimgray;
+                border: 7px solid darkslategray;
+                padding: 0;
+                margin: 0;
+                width: 175px;
+                color:darkslategray;
                 font-size: 50px;
                 text-align: center;
+                
+            }
+            ol {
+                margin: 0;
+                padding: 25px;
             }
         </style>
     </head>
     <body>
-        <h1>HOZIN</h1>
+        <div id="grid">
+            <div> </div>
+            <h1>HOZIN</h1>
+            <div> </div>
+        </div>
         <ol>
             <li><strong>name</strong> : 김호진</li>
             <li><strong>birth</strong> : 2002.02.14</li>
@@ -30,7 +44,7 @@
         </ol>
         <p>
             내 이름은 김호진<br>
-            지금은 대학교 입학 전이고, 웹사이트를 만들기 위해 프로그래밍을 공부하는 중이다.<br>
+            지금은 대학교 입학 전이고, 웹페이지를 만들기 위해 프로그래밍을 공부하는 중이다.<br>
             이름은 <strong><u>HOZIN</u></strong>으로 할 생각이다.
         </p>
         <p>
